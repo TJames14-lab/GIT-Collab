@@ -1,0 +1,94 @@
+    body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+           
+            background-color:#ECDEE0;
+            color:black;
+    }
+     
+        header {
+            background-color:#97646C;
+            color:black;
+            padding: 20px;
+            display: flex;          
+            align-items: center;    
+            justify-content: flex-start;
+            
+        }
+     
+       .banner  { 
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          background-color: #97646C;
+          padding: 20px;
+          gap: 30px;
+                  
+        }
+     
+        .banner img {
+           height: 300px; /* adjust as needed */
+           width: auto;
+           border-radius: 8px;
+        }
+
+        .banner-text h1,
+        .banner-text h2,
+        .banner-text h3 {
+             margin: 0;
+             color: black;
+             font-style: italic;
+        }
+
+        .container {
+            max-width: 800px;
+           margin: 20px auto;
+            background:#97646C ;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 3 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1, h2 {
+            text-align: center;
+           font-style: italic;
+        }
+     
+        h3 {
+          color: black;
+          font-style: italic;
+        }
+     
+        hr {
+             border: 1px solid black;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        table th, table td {
+            border: 2px solid ;
+            padding: 10px;
+            text-align: left; 
+          font-style: italic;
+          
+        }
+       
+        table th {
+            background-color:#97646C ;
+            color:black;
+         
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color:#97646C ;
+            color: Black; 
+            font-style: italic;
+            margin-top: 20px;
+        }
